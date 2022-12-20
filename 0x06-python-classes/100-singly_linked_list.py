@@ -50,7 +50,7 @@ class SinglyLinkedList:
 
         self.head = None
 
-    def __str__(self)
+    def __str__(self):
         """make list printable"""
 
         printsll = ""
