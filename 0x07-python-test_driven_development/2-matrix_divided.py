@@ -53,6 +53,6 @@ def matrix_divided(matrix, div):
                 raise TypeError(msg_type)
 
         len_e = len(elems)
-    
+
     m = list(map(lambda x: list(map(lambda y: round(y / div, 2), x)), matrix))
     return (m)
