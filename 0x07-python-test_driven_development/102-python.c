@@ -10,6 +10,7 @@
 
 void print_python_string(PyObject *p)
 {
+	
 	PyObject *str, *repr;
 
 	(void)repr;
