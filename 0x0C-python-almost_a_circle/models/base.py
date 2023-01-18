@@ -66,7 +66,7 @@ class Base:
             Otherwise - the Python list represented by json_string.
         """
         if json_string is None or json_string == "[]":
-                return []
+            return []
         return json.loads(json_string)
 
     @classmethod
@@ -103,7 +103,7 @@ class Base:
             return []
 
     @classmethod
-     def save_to_file_csv(cls, list_objs):
+    def save_to_file_csv(cls, list_objs):
         """Write the CSV serialization of a list of objects to a file.
 
         Args:
@@ -158,7 +158,7 @@ class Base:
         turt.screen.bgcolor("#b7312c")
         turt.pensize(3)
         turt.shape("turtle")
-            
+
         turt.color("#ffffff")
         for rect in list_rectangles:
             turt.showturtle()
