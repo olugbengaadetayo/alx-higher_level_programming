@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Sends a POST request to a given URL with a given email.
-Usage: ./6-post_email.py <URL> <email>
+Usage: ./6-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
   - Displays the body of the response.
 """
 import sys
